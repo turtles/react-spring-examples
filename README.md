@@ -1,5 +1,6 @@
 # react-spring-examples
 
+Personal Storybook with React Spring examples for learning purposes.
 
 ## How to run
 
