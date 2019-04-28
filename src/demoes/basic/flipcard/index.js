@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const trans = (x) => `perspective(600px) rotateX(${x*180}deg)`;
 
-const FlipCard = () => {
+function FlipCard() {
   const [isFaceUp, setIsFaceUp] = useState(false);
   const props = useSpring({x: isFaceUp ? 1 : 0, opacity: isFaceUp ? 0 : 1, config: { mass: 5, tension: 500, friction: 80 }});
 
